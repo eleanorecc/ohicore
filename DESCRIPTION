@@ -24,7 +24,9 @@ Imports:
     RColorBrewer,
     htmlwidgets,
 Suggests:
-    testthat
+    testthat,
+    knitr,
+    rmarkdown
 Collate:
     'CalculateAll.R'
     'CalculateGoalIndex.R'
@@ -49,3 +51,4 @@ Collate:
 RoxygenNote: 6.0.1
 URL: https://github.com/eleanorecc/ohicore
 BugReports: https://github.com/eleanorecc/ohicore/issues
+VignetteBuilder: knitr
