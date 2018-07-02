@@ -47,3 +47,5 @@ Collate:
     'trace_git_csv_value.R'
     'mapvalues.R'
 RoxygenNote: 6.0.1
+URL: https://github.com/eleanorecc/ohicore
+BugReports: https://github.com/eleanorecc/ohicore/issues

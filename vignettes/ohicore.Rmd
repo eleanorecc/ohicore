@@ -1,0 +1,6 @@
+---
+title: "ohicore"
+output: html_document
+---
+
+This is the homepage of the pkgdown site, the main vignette within the vignette folder
