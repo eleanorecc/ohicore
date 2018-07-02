@@ -55,7 +55,6 @@ Collate:
     'mapvalues.R'
 URL: https://github.com/eleanorecc/ohicore
 BugReports: https://github.com/eleanorecc/ohicore/issues
-License: MIT
 LazyData: TRUE
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
