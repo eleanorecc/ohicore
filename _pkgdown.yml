@@ -34,7 +34,7 @@ reference:
       - '`trace_git_csv_value`'
       - '`mapvalues`'
 navbar:
-  type: standard
+  type: inverse
   left:
     - icon: fa-home
       href: index.html
