@@ -1,0 +1,66 @@
+title: OHICORE
+url: http://eleanorecc.github.io/ohicore
+template:
+  params:
+    bootswatch: yeti
+reference:
+  - title: Calculations
+    desc: Functions to calculate scores, goal indices, pressures, resiliences
+    contents:
+      - '`CalculateAll`'
+      - '`CalculateGoalIndex`'
+      - '`CalculatePressuresAll`'
+      - '`CalculateResilienceAll`'
+  - title: Reporting
+    desc: ~
+    contents:
+      - '`PlotFlower`'    
+  - title: Internal
+    desc: Internal and helper functions to combine, reformat, check, or subset data for use in calculations
+    contents:
+      - '`CheckLayers`'
+      - '`Conf`'
+      - '`Layers`'
+      - '`ScoreScaling`'
+      - '`SelectLayersData`'
+      - '`compare_scores_df`'
+      - '`gapfill_georegions`'
+      - '`name_to_rgn`'
+      - '`name_2_rgn`'
+      - '`collapse_2_rgn`'
+      - '`data`'
+      - '`read_git_csv`'
+      - '`score_check`'
+      - '`trace_git_csv_value`'
+      - '`mapvalues`'
+navbar:
+  type: standard
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "Getting Started"
+      icon: fa-play-circle-o
+      href: articles/getstarted.html
+    - icon: fa-file-code-o 
+      text: "Reference"
+      href: reference/index.html
+    - text: "Articles"
+      menu: 
+      -  text: Data for the Toolbox
+         href: articles/dataprep.html
+      -  text: Toolbox Ecosystem
+         href: articles/ecosystem.html
+      -  text: Workflow
+         href: articles/workflow.html
+      -  text: Reporting
+         href: articles/visualization.html
+    - icon: fa-newspaper-o
+      text: "Changelog"
+      href: news/index.html
+  right:
+    - text: "FAQ"
+      icon: fa-question-circle-o
+      href: articles/faq.html
+    - icon: fa-github fa-lg
+      text: "github"
+      href: https://github.com/eleanorecc/ohicore
