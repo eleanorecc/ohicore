@@ -14,48 +14,26 @@ knitr::opts_chunk$set(
 
 # ohicore
 
-The goal of ohicore is to ...
+The goal of ohicore is to ...  `ohicore` is a package of core functions for calculating the Ocean Health Index. For more, please visit [OHI-Science.org](http://ohi-science.org).
 
 ## Installation
 
 You can install ohicore from github with:
 
 ```{r gh-installation, eval = FALSE}
-# install.packages("devtools")
-devtools::install_github("eleanorecc/ohicore")
+if(){install.packages('devtools')}
+devtools::install_github('ohi-science/ohicore')
 ```
+
+See [ohi-science.org/toolbox-training](http://ohi-science.org/toolbox-training) for more information.
+
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example ... :
 
 ```{r example}
 ## basic example code
 ```
 
 ---
-
-From original markdown readme:
-
-
-
-## OHICORE
-
-`ohicore` is a package of core functions for calculating the Ocean Health Index. For more, please visit [OHI-Science.org](http://ohi-science.org).
-
-## Installation
-
-
-```r
-# install packages
-
-# devtools is needed for installing packages from Github:
-install.packages('devtools')
-
-devtools::install_github('ohi-science/ohicore')
-library(ohicore)
-
-```
-
-
-See [ohi-science.org/toolbox-training](http://ohi-science.org/toolbox-training) for more information.
